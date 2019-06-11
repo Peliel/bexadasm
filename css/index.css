@@ -6,7 +6,7 @@ body {
 }
 
 #body {
-    background: transparent /*linear-gradient(#e66465, #3c416e)*/;
+    background: transparent;
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("/home/hjalmari/Työpöytä/Bexadasm/imgs/black-green_fade.jpg");
+    background-image: url("/imgs/black-green_fade.jpg");
     opacity: 0;
 }
 
