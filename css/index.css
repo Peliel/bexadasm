@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("imgs/black-green_fade.jpg");
+    background-image: url("./imgs/black-green_fade.jpg");
     opacity: 0;
 }
 
