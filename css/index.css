@@ -51,6 +51,11 @@ body {
     font-size: 50px;
 }
 
+/*.h1.e {
+    font-family: Courier, monospace;
+    font-size: 60px;
+}*/
+
 #start-container {
     width: 100vw;
     height: 80vh;
