@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("/home/hjalmari/Työpöytä/Bexadasm/imgs/black-green_fade.jpg");
+    background-image: url("https://peliel.github.io/bexadasm/imgs/black-green_fade.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0;
