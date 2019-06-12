@@ -24,6 +24,7 @@ body {
     background-image: url("https://peliel.github.io/bexadasm/imgs/black-green_fade.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100%;
     opacity: 0;
 }
 
