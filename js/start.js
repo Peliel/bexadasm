@@ -2,6 +2,7 @@ const body = document.getElementById("body"),
       start = document.getElementById("button-start"), 
       textcont = document.getElementById("text-container"), 
       infocont = document.getElementById("info-container"), 
+      classcont = document.getElementById("class-container"), 
       background = document.getElementById("bg"), 
       header = document.getElementsByClassName("bexadasm")[0], 
       r1 = document.getElementsByClassName("r1")[0], 
@@ -26,6 +27,7 @@ start.onclick = function() {
         body.style.animation = "changebg 1s";
     }, 333);
     window.setTimeout(function() {
+        classcont.style.display = "block";
         textcont.style.display = "none";
         infocont.style.animation = "fade-out 333ms";
     }, 666);
