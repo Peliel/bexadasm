@@ -28,6 +28,7 @@ start.onclick = function() {
     }, 333);
     window.setTimeout(function() {
         classcont.style.display = "block";
+        document.getElementById("class-container").style.display = "block";
         textcont.style.display = "none";
         infocont.style.animation = "fade-out 333ms";
     }, 666);
