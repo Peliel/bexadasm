@@ -21,7 +21,9 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("https://peliel.github.io/bexadasm/imgs/black-green_fade.jpg");
+    background-image: url("/home/hjalmari/Työpöytä/Bexadasm/imgs/black-green_fade.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     opacity: 0;
 }
 
@@ -51,17 +53,16 @@ body {
     font-size: 50px;
 }
 
-/*.h1.e {
-    font-family: Courier, monospace;
-    font-size: 60px;
-}*/
-
 #start-container {
     width: 100vw;
     height: 80vh;
     position: absolute;
     top: 20vh;
     left: 0px;
+}
+
+#class-container {
+    display: none;
 }
 
 .class {
